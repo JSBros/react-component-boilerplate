@@ -10,9 +10,9 @@
 
 ## Authors
 
-[Author List →](AUTHORS)
+[Author List →](AUTHORS.md)
 
 ## License
 
-The React Component Boilerplate is under the [MIT](LICENSE) License.
+The React Component Boilerplate is under the [MIT](LICENSE.md) License.
 
