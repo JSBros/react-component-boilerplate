@@ -56,8 +56,8 @@
     "styled-components": "^1.0.10",
     "xo": "^0.17.1"
   },
-  "dependencies": {
-    "react": "^15.3.2",
-    "styled-components": "^1.0.10"
+  "peerDependencies": {
+    "react": "15.x",
+    "styled-components": "1.x"
   }
 }
