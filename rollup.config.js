@@ -5,6 +5,9 @@ import nodeResolve from 'rollup-plugin-node-resolve'
 import replace from 'rollup-plugin-replace'
 import uglify from 'rollup-plugin-uglify'
 
+if (!process.env.DIST_NAME) throw Error("You must specify the DIST_NAME environment variable");
+if (!process.env.MODULE_NAME) throw Error("You must specify the MODULE_NAME environment variable");
+
 const prod = process.env.PRODUCTION
 const env = prod ? 'production' : 'development'
 
@@ -46,7 +49,7 @@ export default {
   exports: 'named',
   external: ['react'],
   globals: { react: 'React' },
-  moduleName: 'hedron',
+  moduleName: process.env.MODULE_NAME,
   plugins,
   targets,
 }
