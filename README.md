@@ -1,6 +1,9 @@
 # React Component Boilerplate
 
-[![David](https://img.shields.io/david/jsbros/react-component-boilerplate.svg?style=flat-square)](https://github.com/JSBros/react-component-boilerplate/issues) [![Gitter](https://img.shields.io/gitter/room/JSBros/react-component-boilerplate.svg?style=flat-square)](https://gitter.im/JSBros/react-component-boilerplate?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![David][david-badge]][david]
+[![version][version-badge]][package]
+[![MIT License][license-badge]][license]
+[![PRs Welcome][prs-badge]][prs]
 
 ## Setup
 
@@ -37,3 +40,12 @@ $ npm run storybook
 
 The React Component Boilerplate is under the [MIT](LICENSE.md) License.
 
+
+[david-badge]: https://img.shields.io/david/jsbros/react-component-boilerplate.svg?style=flat-square
+[david]: https://github.com/JSBros/react-component-boilerplate/issues
+[version-badge]: https://img.shields.io/npm/v/react-component-boilerplate.svg?style=flat-square
+[package]: https://www.npmjs.com/package/react-component-boilerplate
+[license-badge]: https://img.shields.io/npm/l/react-component-boilerplate.svg?style=flat-square
+[license]: https://github.com/jsbros/react-component-boilerplate/blob/master/LICENSE
+[prs-badge]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square
+[prs]: https://github.com/JSBros/react-component-boilerplate/pulls
